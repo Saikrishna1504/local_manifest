@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<remote  name="sai"
+		fetch="https://github.com/Saikrishna1504" />
+		
+	<remote  name="nova"
+		fetch="https://github.com/Nova-Kernels" />
+		
+        <remote  name="tri"
+                fetch="https://github.com/Trinity-ROMS" />
+
+ <!-- Device Trees -->
+ <project path="device/redmi/begonia" name="android_device_redmi_begonia" remote="sai" revision="tiramisu" />
+ <project path="vendor/redmi/begonia" name="android_vendor_redmi_begonia" remote="tri" revision="tiramisu" />
+ <project path="kernel/xiaomi/mt6785" name="kernel_xiaomi_mt6785" remote="nova" revision="nova" />
+
+ <!-- Extras -->
+ <project path="vendor/redmi/begonia-ims" name="android_vendor_redmi_begonia-ims" remote="tri" revision="tiramisu" />
+ <project path="vendor/redmi/begonia-firmware" name="android_vendor_redmi_begonia-firmware" remote="tri" revision="tiramisu" />
+ <project path="android/packages/apps/RevampedFMRadio" name="android_packages_apps_RevampedFMRadio" remote="sai" revision="13" />
+ <project path="device/mediatek/sepolicy" name="android_device_mediatek_sepolicy" remote="tri" revision="tiramisu" />
+ <project path="hardware/mediatek" name="android_hardware_mediatek" remote="tri" revision="tiramisu" />
+
+</manifest>
