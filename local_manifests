@@ -10,6 +10,9 @@
         <remote  name="tri"
                 fetch="https://github.com/Trinity-ROMS" />
 
+        <remote  name="clang"
+		fetch="https://gitlab.com/Panchajanya1999" />
+
  <!-- Device Trees -->
  <project path="device/redmi/begonia" name="android_device_redmi_begonia" remote="sai" revision="tiramisu" />
  <project path="vendor/redmi/begonia" name="android_vendor_redmi_begonia" remote="tri" revision="tiramisu" />
@@ -21,5 +24,6 @@
  <project path="android/packages/apps/RevampedFMRadio" name="android_packages_apps_RevampedFMRadio" remote="sai" revision="13" />
  <project path="device/mediatek/sepolicy" name="android_device_mediatek_sepolicy" remote="tri" revision="tiramisu" />
  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="tri" revision="tiramisu" />
+ <project path="prebuilts/clang/host/linux-x86/clang-azure" name="azure-clang" remote="clang" revision="main" />
 
 </manifest>
