@@ -22,8 +22,8 @@
  <project path="vendor/redmi/begonia-ims" name="android_vendor_redmi_begonia-ims" remote="tri" revision="tiramisu" />
  <project path="vendor/redmi/begonia-firmware" name="android_vendor_redmi_begonia-firmware" remote="tri" revision="tiramisu" />
  <project path="android/packages/apps/RevampedFMRadio" name="android_packages_apps_RevampedFMRadio" remote="sai" revision="13" />
- <project path="device/mediatek/sepolicy" name="android_device_mediatek_sepolicy" remote="tri" revision="tiramisu" />
- <project path="hardware/mediatek" name="android_hardware_mediatek" remote="sai" revision="tiramisu" />
+ <project path="device/mediatek/sepolicy" name="android_device_mediatek_sepolicy" remote="sai" revision="tiramisu" />
+ <project path="hardware/mediatek" name="android_hardware_mediatek" remote="tri" revision="tiramisu" />
  <project path="prebuilts/clang/host/linux-x86/clang-azure" name="azure-clang" remote="clang" revision="main" />
 
 </manifest>
