@@ -14,7 +14,7 @@
 		fetch="https://gitlab.com/Panchajanya1999" />
 
  <!-- Device Trees -->
- <project path="device/redmi/begonia" name="android_device_redmi_begonia" remote="sai" revision="tiramisu" />
+ <project path="device/redmi/begonia" name="cirrus-ci_test" remote="sai" revision="tiramisu" />
  <project path="vendor/redmi/begonia" name="android_vendor_redmi_begonia" remote="tri" revision="tiramisu" />
  <project path="kernel/xiaomi/mt6785" name="kernel_xiaomi_mt6785" remote="nova" revision="nova" />
 
